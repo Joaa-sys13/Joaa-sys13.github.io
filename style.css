@@ -1,22 +1,30 @@
 body {
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #caac6f; 
+    color: #1E293B;
     margin: 0;
     padding: 0;
+}
+header {
+    background-color: #ffffff;                
+    width: 100%;
+    padding: 25px 8%;                         
+    box-sizing: border-box;
+    border-bottom: 1px solid #E2E8F0;          
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.01); 
+    border-radius: 0 0 12px 12px;              
+}
+
+
+.seccion-inicio img {
+    
+    width: 100%;
+    height: auto;
+    border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0 .05); 
 
 }
-p{
-    color: rgb(0, 0, 0);
-}
-header{
-     background-color: white;
-    width: 100%; 
-    padding: 40px 50px; 
-    border-radius: 0 0 15px 15px; 
-    box-sizing: border-box; /* Evita que el padding rompa el ancho del 100% */
-} 
+
+
 .lima {
   font-family: "Limelight", sans-serif;
   font-weight: 400;
@@ -77,5 +85,33 @@ body {
   margin-top: 0;
   padding-top: 0;
 }
+
+
+.contenedor-jumbotron {
+    display: flex;
+    align-items: center;      
+    justify-content: space-between;
+    gap: 40px;                 
+    padding: 50px;            
+}
+
+
+.bloque-texto {
+    flex: 1;
+}
+
+
+.bloque-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;   
+}
+
+.bloque-imagen img {
+    max-width: 100%;          
+    height: auto;          
+    border-radius: 10px;    
+}
+
 
 
