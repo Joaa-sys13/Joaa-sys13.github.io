@@ -96,23 +96,76 @@ body {
 }
 
 
-.bloque-texto {
-    flex: 1;
+.contact-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
+/* Encabezado */
+.contact-header {
+    margin-bottom: 10px;
+}
 
-.bloque-imagen {
-    flex: 1;
+.contact-header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #333333;
+    margin: 0 0 15px 0;
+}
+
+/* Línea divisora */
+.divider {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 0 0 40px 0;
+}
+
+/* Cuadrícula de contacto */
+.contact-grid {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+    gap: 80px;
+    background-color: #f8f8f8;
+    padding: 50px 20px;
 }
 
-.bloque-imagen img {
-    max-width: 100%;          
-    height: auto;          
-    border-radius: 10px;    
+/* Elemento individual de contacto */
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
 }
 
+/* Caja de íconos en dorado */
+.icon-box {
+    margin-bottom: 15px;
+}
 
+.icon-box svg {
+    width: 50px;
+    height: 50px;
+    fill: none;
+    stroke: #D4AF37; /* Color dorado */
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
 
+/* Títulos y textos de los elementos */
+.contact-item h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #333333;
+    margin: 0 0 10px 0;
+}
 
+.contact-item p {
+    font-size: 0.9rem;
+    color: #777777;
+    margin: 2px 0;
+    line-height: 1.4;
+}
